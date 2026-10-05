@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON | AquaViva</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo"> <span>AquaViva</span></div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="javascript.html">JavaScript</a>
+        <a href="jquery.html">jQuery</a>
+        <a href="json.html">JSON</a>
+        <a href="hosting.html">Hosting</a>
+        <a href="cuestionario.html">Cuestionario</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="pagina">
+
+    <h1>JSON</h1>
+
+    <p class="intro">
+        JSON significa JavaScript Object Notation. Es un formato
+        ligero utilizado para almacenar e intercambiar información.
+    </p>
+
+    <h2>¿Cómo está estructurado?</h2>
+
+    <p>
+        JSON utiliza pares de clave y valor. También permite trabajar
+        con objetos y arreglos.
+    </p>
+
+    <pre><code>
+{
+    "producto": "AquaViva",
+    "precio": 15.99,
+    "colores": [
+        "azul",
+        "verde",
+        "blanco"
+    ],
+    "disponible": true
+}
+    </code></pre>
+
+    <h2>Objeto JavaScript vs JSON</h2>
+
+    <div class="tabla-contenedor">
+
+        <table>
+            <tr>
+                <th>Objeto JavaScript</th>
+                <th>Cadena JSON</th>
+            </tr>
+
+            <tr>
+                <td>{ nombre: "AquaViva" }</td>
+                <td>{ "nombre": "AquaViva" }</td>
+            </tr>
+
+            <tr>
+                <td>Puede contener funciones.</td>
+                <td>Solo contiene datos.</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <h2>JSON y las aplicaciones web</h2>
+
+    <p>
+        Las aplicaciones web pueden utilizar JSON para enviar y recibir
+        información entre el navegador y un servidor. También es muy
+        utilizado cuando una aplicación se comunica con una API.
+    </p>
+
+    <h2>Ejemplo</h2>
+
+    <pre><code>
+const producto = {
+    nombre: "AquaViva",
+    precio: 15.99
+};
+
+const datos = JSON.stringify(producto);
+    </code></pre>
+
+    <h2>Fuente consultada</h2>
+
+    <p>MDN Web Docs - JSON.</p>
+
+</section>
+
+</main>
+
+<footer>
+    <p> AquaViva - Proyecto educativo</p>
+</footer>
+
+</body>
+</html>
+```

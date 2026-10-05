@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery | AquaViva</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo"> <span>AquaViva</span></div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="javascript.html">JavaScript</a>
+        <a href="jquery.html">jQuery</a>
+        <a href="json.html">JSON</a>
+        <a href="hosting.html">Hosting</a>
+        <a href="cuestionario.html">Cuestionario</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="pagina">
+
+    <h1>jQuery</h1>
+
+    <p class="intro">
+        jQuery es una biblioteca de JavaScript creada para facilitar
+        tareas comunes como manipular elementos HTML, manejar eventos
+        y crear animaciones.
+    </p>
+
+    <h2>¿Por qué nació jQuery?</h2>
+
+    <p>
+        jQuery surgió para simplificar el desarrollo web y facilitar
+        la compatibilidad entre diferentes navegadores.
+    </p>
+
+    <h2>Sintaxis básica</h2>
+
+    <pre><code>
+$("#boton").click(function() {
+    alert("Hola desde jQuery");
+});
+    </code></pre>
+
+    <h2>Ventajas y desventajas</h2>
+
+    <div class="tabla-contenedor">
+
+        <table>
+            <tr>
+                <th>Ventajas</th>
+                <th>Desventajas</th>
+            </tr>
+
+            <tr>
+                <td>Sintaxis sencilla.</td>
+                <td>Puede ser innecesario en proyectos modernos.</td>
+            </tr>
+
+            <tr>
+                <td>Facilita algunas animaciones.</td>
+                <td>Agrega una dependencia externa.</td>
+            </tr>
+
+            <tr>
+                <td>Fue muy útil para compatibilidad entre navegadores.</td>
+                <td>JavaScript moderno ofrece muchas funciones similares.</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <h2>Ejemplo de animación</h2>
+
+    <p>
+        jQuery permite utilizar efectos como <strong>fadeIn()</strong>
+        y <strong>slideToggle()</strong>.
+    </p>
+
+    <pre><code>
+$("#informacion").slideToggle();
+    </code></pre>
+
+    <div id="informacion" class="mensaje">
+        ¡Este contenido puede aparecer y desaparecer con una animación!
+    </div>
+
+    <button class="boton" onclick="mostrarJquery()">
+        Mostrar / Ocultar
+    </button>
+
+    <h2>JavaScript vs jQuery</h2>
+
+    <div class="tabla-contenedor">
+
+        <table>
+            <tr>
+                <th>JavaScript</th>
+                <th>jQuery</th>
+            </tr>
+
+            <tr>
+                <td>document.querySelector("#elemento")</td>
+                <td>$("#elemento")</td>
+            </tr>
+
+            <tr>
+                <td>addEventListener()</td>
+                <td>.click()</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <h2>Fuente consultada</h2>
+
+    <p>Documentación oficial de jQuery.</p>
+
+</section>
+
+</main>
+
+<footer>
+    <p> AquaViva - Proyecto educativo</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
+```

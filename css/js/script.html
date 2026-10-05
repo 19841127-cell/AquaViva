@@ -1,0 +1,35 @@
+```javascript
+// ========================================
+// JAVASCRIPT DEL SITIO AQUAVIVA
+// ========================================
+
+// Mensaje de bienvenida en la página de JavaScript
+const boton = document.querySelector("#boton");
+
+if (boton) {
+    boton.addEventListener("click", function() {
+        alert("¡Bienvenido a AquaViva! Hidrata tu día, activa tu vida.");
+    });
+}
+
+
+// ========================================
+// SIMULACIÓN DE EFECTO JQUERY
+// ========================================
+
+function mostrarJquery() {
+
+    const elemento = document.querySelector("#informacion");
+
+    if (elemento) {
+
+        if (elemento.style.display === "none") {
+            elemento.style.display = "block";
+        } else {
+            elemento.style.display = "none";
+        }
+
+    }
+
+}
+```
